@@ -1,0 +1,857 @@
+{
+  "anchor": "2026-11-19",
+  "documents": {
+    "HR/Contracts/US/OConnor_Daniel_Executive_Employment_Agreement.pdf": {
+      "document_kind": "employment_agreement",
+      "is_employment_related": true,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Executive Employment Agreement",
+      "summary": "Executive agreement for Daniel O'Connor as VP Sales (Americas). Initial term ends February 23, 2027 and auto-renews for 12-month periods unless either side gives 90 days' notice. Company non-renewal is treated as termination without cause and triggers 6 months' severance plus COBRA.",
+      "employee_name": "Daniel O'Connor",
+      "employee_email": "daniel.oconnor@example.com",
+      "job_title": "Vice President, Sales (Americas)",
+      "department": "Sales",
+      "employer_entity": "Aster Robotics Inc.",
+      "country": "US",
+      "work_location": "New York, NY",
+      "governing_law": "New York, USA",
+      "contract_type": "fixed_term",
+      "start_date": "2024-02-24",
+      "end_date": "2027-02-23",
+      "auto_renewal": true,
+      "renewal_terms": "Auto-renews for successive 12-month terms unless either party gives written notice of non-renewal at least 90 days before expiry.",
+      "notice_period_days": 90,
+      "notice_terms": "90 days' written notice of non-renewal; 30 days' notice for termination without cause.",
+      "notice_deadline": "2026-11-25",
+      "probation_end_date": null,
+      "compensation": {
+        "amount": 270000,
+        "currency": "USD",
+        "period": "year",
+        "text": "$270,000 base salary; 40% target bonus"
+      },
+      "non_compete": "12 months post-employment, North America (plus non-solicit).",
+      "termination_terms": "For cause anytime; without cause on 30 days' notice. Company non-renewal = termination without cause → severance.",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2026-11-25",
+          "label": "Last day to give notice of non-renewal"
+        },
+        {
+          "date": "2027-02-23",
+          "label": "Initial term ends (auto-renews 12 months)"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "2. Term; Automatic Renewal",
+          "original_text": "…shall automatically renew for successive twelve (12) month periods… unless either party delivers written notice of non-renewal… at least ninety (90) days prior to the expiration…",
+          "english_text": "…shall automatically renew for successive twelve (12) month periods… unless either party delivers written notice of non-renewal… at least ninety (90) days prior to the expiration…",
+          "page": 1
+        },
+        {
+          "heading": "5(c) Non-Renewal by the Company",
+          "original_text": "A notice of non-renewal delivered by the Company under Section 2 shall be treated as a termination without Cause for purposes of Section 6.",
+          "english_text": "A notice of non-renewal delivered by the Company under Section 2 shall be treated as a termination without Cause for purposes of Section 6.",
+          "page": 1
+        },
+        {
+          "heading": "6. Severance",
+          "original_text": "…continued payment of Base Salary for six (6) months and… COBRA premiums for up to six (6) months.",
+          "english_text": "…continued payment of Base Salary for six (6) months and… COBRA premiums for up to six (6) months.",
+          "page": 2
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "high",
+          "title": "Non-renewal notice due in 6 days",
+          "detail": "Notice must reach the Executive by November 25, 2026 or the agreement renews to February 23, 2028."
+        },
+        {
+          "severity": "medium",
+          "title": "Non-renewal triggers severance",
+          "detail": "Company non-renewal counts as termination without cause: ~$135,000 salary continuation plus 6 months COBRA, subject to a release."
+        }
+      ],
+      "recommended_action": "renew",
+      "recommendation_rationale": "Renewal avoids a ~$135k severance obligation and there is no performance concern on file. The Board asked Legal for a recommendation before the deadline, so decide this week.",
+      "confidence": "high",
+      "signed": true
+    },
+    "HR/Contracts/APAC/Consultancy_Agreement_Arjun_Sharma.pdf": {
+      "document_kind": "consultancy_agreement",
+      "is_employment_related": true,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Consultancy Agreement",
+      "summary": "Consultancy agreement with Arjun Sharma for full-stack development at INR 2.5 lakh/month. Initial term ends December 15, 2026 and auto-renews for 6-month periods unless 30 days' notice is given; either side may also terminate for convenience on 60 days' notice.",
+      "employee_name": "Arjun Sharma",
+      "employee_email": "arjun.sharma@example.com",
+      "job_title": "Full-stack Software Developer (consultant)",
+      "department": "Engineering",
+      "employer_entity": "Aster Robotics India Pvt. Ltd.",
+      "country": "IN",
+      "work_location": "Bengaluru, India",
+      "governing_law": "India (arbitration, Bengaluru)",
+      "contract_type": "contractor",
+      "start_date": "2025-12-16",
+      "end_date": "2026-12-15",
+      "auto_renewal": true,
+      "renewal_terms": "Auto-renews for successive 6-month periods unless 30 days' written notice of non-renewal.",
+      "notice_period_days": 30,
+      "notice_terms": "30 days' notice of non-renewal; 60 days' notice for termination for convenience.",
+      "notice_deadline": "2026-11-15",
+      "probation_end_date": null,
+      "compensation": {
+        "amount": 250000,
+        "currency": "INR",
+        "period": "month",
+        "text": "INR 2,50,000 per month + GST"
+      },
+      "non_compete": null,
+      "termination_terms": "Either party may terminate for convenience on 60 days' written notice.",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2026-11-15",
+          "label": "Last day for non-renewal notice (passed)"
+        },
+        {
+          "date": "2026-12-15",
+          "label": "Initial term ends; renews 6 months"
+        },
+        {
+          "date": "2027-06-15",
+          "label": "End of first renewal period"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "2. Manner of Performance",
+          "original_text": "…from the Company's Bengaluru office, Monday to Friday, between 9:30 and 18:30, shall attend the team's daily stand-up meetings and shall apply for leave…",
+          "english_text": "…from the Company's Bengaluru office, Monday to Friday, between 9:30 and 18:30, shall attend the team's daily stand-up meetings and shall apply for leave…",
+          "page": 1
+        },
+        {
+          "heading": "3. Term and Renewal",
+          "original_text": "…automatically renew for successive periods of six (6) months unless either party gives written notice of non-renewal at least thirty (30) days before the end…",
+          "english_text": "…automatically renew for successive periods of six (6) months unless either party gives written notice of non-renewal at least thirty (30) days before the end…",
+          "page": 1
+        },
+        {
+          "heading": "4. Termination for Convenience",
+          "original_text": "Either party may terminate this Agreement at any time upon sixty (60) days' prior written notice.",
+          "english_text": "Either party may terminate this Agreement at any time upon sixty (60) days' prior written notice.",
+          "page": 1
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "high",
+          "title": "Non-renewal window missed",
+          "detail": "The 30-day notice deadline was November 15, 2026. The agreement will renew on December 15, 2026 to June 15, 2027 unless terminated for convenience (60 days)."
+        },
+        {
+          "severity": "high",
+          "title": "Possible misclassification as contractor",
+          "detail": "Fixed office hours, daily stand-ups and leave approval indicate employment-like control; risk of PF/gratuity claims and deemed employment."
+        }
+      ],
+      "recommended_action": "terminate",
+      "recommendation_rationale": "Non-renewal is no longer possible for this term. Either give 60 days' termination-for-convenience notice now, or cure the misclassification risk by offering an employment contract.",
+      "confidence": "high",
+      "signed": true
+    },
+    "Scans/scan_0042.pdf": {
+      "document_kind": "employment_agreement",
+      "is_employment_related": true,
+      "language": "de",
+      "language_name": "German",
+      "is_scanned": true,
+      "title": "Befristeter Arbeitsvertrag (Fixed-term employment contract)",
+      "summary": "German fixed-term contract (no objective reason, § 14(2) TzBfG) for Lukas Becker as Senior Hardware Engineer in Berlin, January 1, 2025 – December 31, 2026. The two-year statutory maximum is already used, so it cannot be extended again on a fixed-term basis.",
+      "employee_name": "Lukas Becker",
+      "employee_email": "lukas.becker@example.com",
+      "job_title": "Senior Hardware Engineer",
+      "department": "Robotics Hardware",
+      "employer_entity": "Aster Robotics GmbH",
+      "country": "DE",
+      "work_location": "Berlin, Germany",
+      "governing_law": "Germany",
+      "contract_type": "fixed_term",
+      "start_date": "2025-01-01",
+      "end_date": "2026-12-31",
+      "auto_renewal": false,
+      "renewal_terms": "Extension only within the 2-year statutory maximum (§ 14(2) TzBfG) — already reached.",
+      "notice_period_days": null,
+      "notice_terms": "Ends automatically at term; ordinary termination possible with statutory notice (§ 622 BGB); termination must be in wet-ink written form (§ 623 BGB).",
+      "notice_deadline": null,
+      "probation_end_date": "2025-06-30",
+      "compensation": {
+        "amount": 78000,
+        "currency": "EUR",
+        "period": "year",
+        "text": "€78,000 gross per year"
+      },
+      "non_compete": "12 months post-contractual; compensation 50% of last remuneration (§ 74 HGB).",
+      "termination_terms": "Statutory notice (§ 622 BGB); written form mandatory (§ 623 BGB).",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2026-12-31",
+          "label": "Fixed term ends (no further fixed-term extension possible)"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "§ 1 Beginn und Befristung",
+          "original_text": "Es ist gemäß § 14 Abs. 2 TzBfG ohne sachlichen Grund befristet und endet mit Ablauf des 31. Dezember 2026, ohne dass es einer Kündigung bedarf.",
+          "english_text": "It is fixed-term without objective reason under § 14(2) TzBfG and ends at the close of December 31, 2026 without the need for notice.",
+          "page": 1
+        },
+        {
+          "heading": "§ 6 Kündigung",
+          "original_text": "Jede Kündigung bedarf der Schriftform (§ 623 BGB); die elektronische Form ist ausgeschlossen.",
+          "english_text": "Any termination must be in written form (§ 623 BGB); electronic form is excluded.",
+          "page": 1
+        },
+        {
+          "heading": "§ 7 Nachvertragliches Wettbewerbsverbot",
+          "original_text": "…für die Dauer von zwölf Monaten… Karenzentschädigung in Höhe von 50 %…",
+          "english_text": "…for twelve months… compensation of 50% of the last contractual remuneration…",
+          "page": 2
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "high",
+          "title": "Statutory maximum for fixed-term reached",
+          "detail": "Two years without objective reason is the § 14(2) TzBfG maximum; another fixed-term extension would be invalid and create an indefinite contract."
+        },
+        {
+          "severity": "medium",
+          "title": "Continued work after end date = indefinite contract",
+          "detail": "If Lukas keeps working after the end date with the employer's knowledge, the contract becomes indefinite by law (§ 15(6) TzBfG)."
+        },
+        {
+          "severity": "medium",
+          "title": "Costly post-contractual non-compete",
+          "detail": "The 12-month non-compete obliges ~€39,000 compensation unless waived in writing before the employment ends (§ 75a HGB)."
+        }
+      ],
+      "recommended_action": "convert_to_permanent",
+      "recommendation_rationale": "Senior hardware engineer in a critical role; the fixed-term route is exhausted. Convert to indefinite employment (the EMEA hiring freeze exempts retention of critical engineering roles), or let it end and waive the non-compete in writing to avoid ~€39k compensation.",
+      "confidence": "high",
+      "signed": true
+    },
+    "HR/Contracts/US/Chen_Maya_Fixed_Term_Employment_Agreement.pdf": {
+      "document_kind": "employment_agreement",
+      "is_employment_related": true,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Fixed-Term Employment Agreement",
+      "summary": "Fixed-term agreement for Maya Chen, Senior ML Engineer (Austin), July 16, 2025 – July 15, 2026 at $172,000. Extension by mutual written agreement; the Company must state its intention 30 days before the end of the Term.",
+      "employee_name": "Maya Chen",
+      "employee_email": "maya.chen@example.com",
+      "job_title": "Senior Machine Learning Engineer",
+      "department": "Autonomy / Perception",
+      "employer_entity": "Aster Robotics Inc.",
+      "country": "US",
+      "work_location": "Austin, TX",
+      "governing_law": "Texas, USA",
+      "contract_type": "fixed_term",
+      "start_date": "2025-07-16",
+      "end_date": "2026-07-15",
+      "auto_renewal": false,
+      "renewal_terms": "Extension only by mutual written agreement; Company to give 30 days' notice of its intention to extend or not.",
+      "notice_period_days": 30,
+      "notice_terms": "30 days' notice of intention to extend / not extend; 30 days' notice for early termination.",
+      "notice_deadline": "2026-06-15",
+      "probation_end_date": null,
+      "compensation": {
+        "amount": 172000,
+        "currency": "USD",
+        "period": "year",
+        "text": "$172,000 base; up to 15% bonus"
+      },
+      "non_compete": null,
+      "termination_terms": "30 days' notice by either party; immediate for cause.",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2026-07-15",
+          "label": "Original end of Term (later amended)"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "2. Term",
+          "original_text": "The Company shall notify the Employee in writing of its intention to extend or not to extend the Term at least thirty (30) days before the end of the Term.",
+          "english_text": "The Company shall notify the Employee in writing of its intention to extend or not to extend the Term at least thirty (30) days before the end of the Term.",
+          "page": 1
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "low",
+          "title": "End date superseded",
+          "detail": "This original end date was extended by Amendment No. 1."
+        }
+      ],
+      "recommended_action": "review",
+      "recommendation_rationale": "Read together with Amendment No. 1, which extends the Term.",
+      "confidence": "high",
+      "signed": true
+    },
+    "HR/Contracts/US/Chen_Maya_Amendment_No1.pdf": {
+      "document_kind": "amendment",
+      "is_employment_related": true,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Amendment No. 1 to Fixed-Term Employment Agreement",
+      "summary": "Extends Maya Chen's fixed term to January 15, 2027 and raises base salary to $185,000 from June 20, 2026. The 30-day notice-of-intention clause applies to the extended Term.",
+      "employee_name": "Maya Chen",
+      "employee_email": null,
+      "job_title": "Senior Machine Learning Engineer",
+      "department": "Autonomy / Perception",
+      "employer_entity": "Aster Robotics Inc.",
+      "country": "US",
+      "work_location": "Austin, TX",
+      "governing_law": "Texas, USA",
+      "contract_type": "fixed_term",
+      "start_date": null,
+      "end_date": "2027-01-15",
+      "auto_renewal": false,
+      "renewal_terms": "Extension by mutual written agreement (unchanged).",
+      "notice_period_days": 30,
+      "notice_terms": "30 days' notice of intention to extend / not extend (applies to extended Term).",
+      "notice_deadline": "2026-12-16",
+      "probation_end_date": null,
+      "compensation": {
+        "amount": 185000,
+        "currency": "USD",
+        "period": "year",
+        "text": "$185,000 base salary"
+      },
+      "non_compete": null,
+      "termination_terms": null,
+      "amends_document": "Fixed-Term Employment Agreement dated July 6, 2025 (Maya Chen)",
+      "key_dates": [
+        {
+          "date": "2026-12-16",
+          "label": "Notify intention to extend / not extend"
+        },
+        {
+          "date": "2027-01-15",
+          "label": "Extended Term ends"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "1. Extension of Term",
+          "original_text": "Section 2 of the Agreement is amended so that the Term ends on January 15, 2027.",
+          "english_text": "Section 2 of the Agreement is amended so that the Term ends on January 15, 2027.",
+          "page": 1
+        }
+      ],
+      "risk_flags": [],
+      "recommended_action": "renew",
+      "recommendation_rationale": "Strong performer (raise granted mid-term); extend for 12 months if the Perception roadmap continues.",
+      "confidence": "high",
+      "signed": true
+    },
+    "HR/Contracts/EMEA/Contrato_Martinez_Sofia.pdf": {
+      "document_kind": "employment_agreement",
+      "is_employment_related": true,
+      "language": "es",
+      "language_name": "Spanish",
+      "is_scanned": false,
+      "title": "Contrato de trabajo de duración determinada (Fixed-term employment contract)",
+      "summary": "Spanish fixed-term contract 'por circunstancias de la producción' for Sofía Martínez, Marketing Manager in Madrid, for 18 months (August 29, 2025 – February 28, 2027) at €52,000 in 14 payments. 15 days' notice of expiry; 12 days' salary per year on expiry.",
+      "employee_name": "Sofía Martínez García",
+      "employee_email": "sofia.martinez@example.com",
+      "job_title": "Marketing Manager",
+      "department": "Marketing",
+      "employer_entity": "Aster Robotics España, S.L.",
+      "country": "ES",
+      "work_location": "Madrid, Spain",
+      "governing_law": "Spain",
+      "contract_type": "fixed_term",
+      "start_date": "2025-08-29",
+      "end_date": "2027-02-28",
+      "auto_renewal": false,
+      "renewal_terms": "No renewal clause; fixed 18-month term.",
+      "notice_period_days": 15,
+      "notice_terms": "15 days' notice before expiry (art. 49.1.c ET).",
+      "notice_deadline": "2027-02-13",
+      "probation_end_date": "2025-10-28",
+      "compensation": {
+        "amount": 52000,
+        "currency": "EUR",
+        "period": "year",
+        "text": "€52,000 gross in 14 payments"
+      },
+      "non_compete": null,
+      "termination_terms": "Expiry with 15 days' notice; severance of 12 days' salary per year of service.",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2027-02-13",
+          "label": "Last day to give 15 days' notice of expiry"
+        },
+        {
+          "date": "2027-02-28",
+          "label": "Contract ends"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "SEGUNDA.– Modalidad y duración",
+          "original_text": "…por circunstancias de la producción, al amparo del artículo 15.2 del Estatuto de los Trabajadores… Tendrá una duración de dieciocho (18) meses…",
+          "english_text": "…for production circumstances under article 15.2 of the Workers' Statute… for a duration of eighteen (18) months…",
+          "page": 1
+        },
+        {
+          "heading": "SEXTA.– Extinción",
+          "original_text": "…deberá notificarlo a la otra con una antelación mínima de quince (15) días…",
+          "english_text": "…must notify the other party at least fifteen (15) days in advance…",
+          "page": 1
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "high",
+          "title": "Term exceeds legal maximum for this contract type",
+          "detail": "Since the 2022 labour reform, art. 15.2 ET contracts may last up to 6 months (12 if the collective agreement allows). An 18-month term risks the contract being deemed indefinite (fijo)."
+        }
+      ],
+      "recommended_action": "convert_to_permanent",
+      "recommendation_rationale": "The contract is likely already treated as indefinite; letting it 'expire' risks an unfair-dismissal claim. Regularise by converting to an indefinite contract (or take local advice before any exit).",
+      "confidence": "medium",
+      "signed": true
+    },
+    "HR/Contracts/EMEA/CDD_Dubois_Camille.pdf": {
+      "document_kind": "employment_agreement",
+      "is_employment_related": true,
+      "language": "fr",
+      "language_name": "French",
+      "is_scanned": false,
+      "title": "Contrat de travail à durée déterminée — CDD (Fixed-term employment contract)",
+      "summary": "French CDD for Camille Dubois, Senior Product Designer in Paris, April 1, 2026 – March 31, 2027, for a temporary increase in activity. Renewable twice by signed amendment (max 18 months). 10% end-of-contract allowance. The employee signature line is blank.",
+      "employee_name": "Camille Dubois",
+      "employee_email": "camille.dubois@example.com",
+      "job_title": "Senior Product Designer",
+      "department": "Design",
+      "employer_entity": "Aster Robotics SAS",
+      "country": "FR",
+      "work_location": "Paris, France",
+      "governing_law": "France",
+      "contract_type": "fixed_term",
+      "start_date": "2026-04-01",
+      "end_date": "2027-03-31",
+      "auto_renewal": false,
+      "renewal_terms": "Renewable twice by amendment signed before the term ends; 18 months maximum in total.",
+      "notice_period_days": null,
+      "notice_terms": "Ends automatically at term; renewal requires an avenant signed before the end date.",
+      "notice_deadline": null,
+      "probation_end_date": "2026-04-30",
+      "compensation": {
+        "amount": 4200,
+        "currency": "EUR",
+        "period": "month",
+        "text": "€4,200 gross per month"
+      },
+      "non_compete": null,
+      "termination_terms": "Early termination only by agreement, gross misconduct, force majeure, unfitness or permanent hire elsewhere.",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2027-03-31",
+          "label": "CDD ends — renewal avenant must be signed before this date"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "Article 2 – Durée",
+          "original_text": "Il pourra être renouvelé deux fois par avenant signé avant son terme, sans que la durée totale… ne dépasse dix-huit (18) mois.",
+          "english_text": "It may be renewed twice by an amendment signed before its term, with a total duration not exceeding eighteen (18) months.",
+          "page": 1
+        },
+        {
+          "heading": "Article 6 – Indemnité de fin de contrat",
+          "original_text": "…une indemnité de fin de contrat égale à 10 % de la rémunération totale brute perçue…",
+          "english_text": "…an end-of-contract allowance equal to 10% of total gross remuneration received…",
+          "page": 2
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "high",
+          "title": "CDD not signed by the employee",
+          "detail": "A CDD without the employee's signature can be requalified as a permanent contract (CDI) by French courts. Obtain a signed copy or regularise now."
+        }
+      ],
+      "recommended_action": "review",
+      "recommendation_rationale": "Fix the missing signature first; then decide between a renewal avenant (max 18 months total) and conversion to CDI, which also avoids the 10% allowance.",
+      "confidence": "high",
+      "signed": false
+    },
+    "HR/Contracts/APAC/雇用契約書_田中由紀.pdf": {
+      "document_kind": "employment_agreement",
+      "is_employment_related": true,
+      "language": "ja",
+      "language_name": "Japanese",
+      "is_scanned": true,
+      "title": "有期雇用契約書 (Fixed-term employment contract)",
+      "summary": "Japanese fixed-term contract for Yuki Tanaka, Sales Director (Tokyo), April 1, 2026 – March 31, 2027 at ¥850,000/month. Second renewal since first hire on April 1, 2024; the company must give 30 days' advance notice if it will not renew.",
+      "employee_name": "Yuki Tanaka (田中由紀)",
+      "employee_email": "yuki.tanaka@example.com",
+      "job_title": "Sales Director, Japan (営業部長)",
+      "department": "Sales",
+      "employer_entity": "Aster Robotics K.K.",
+      "country": "JP",
+      "work_location": "Tokyo, Japan",
+      "governing_law": "Japan",
+      "contract_type": "fixed_term",
+      "start_date": "2026-04-01",
+      "end_date": "2027-03-31",
+      "auto_renewal": false,
+      "renewal_terms": "May be renewed, based on workload, performance and business conditions.",
+      "notice_period_days": 30,
+      "notice_terms": "Company must give 30 days' advance notice of non-renewal.",
+      "notice_deadline": "2027-03-01",
+      "probation_end_date": null,
+      "compensation": {
+        "amount": 850000,
+        "currency": "JPY",
+        "period": "month",
+        "text": "¥850,000 base salary per month"
+      },
+      "non_compete": null,
+      "termination_terms": "Dismissal per work rules; employee resignation on 30 days' notice.",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2027-03-01",
+          "label": "Last day to give 30 days' notice of non-renewal"
+        },
+        {
+          "date": "2027-03-31",
+          "label": "Contract period ends"
+        },
+        {
+          "date": "2029-04-01",
+          "label": "5-year conversion right (Labour Contract Act §18)"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "第2条（契約の更新）3",
+          "original_text": "甲は、本契約を更新しない場合には、少なくとも契約期間満了日の30日前までに乙に対してその旨を予告する。",
+          "english_text": "If the Company will not renew this contract, it shall notify the Employee at least 30 days before the contract end date.",
+          "page": 1
+        },
+        {
+          "heading": "第7条（無期転換）",
+          "original_text": "通算契約期間が5年を超える場合、乙の申込みにより期間の定めのない労働契約に転換される。",
+          "english_text": "If the total contract period exceeds 5 years, the contract converts to an indefinite one at the Employee's request.",
+          "page": 2
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "low",
+          "title": "Expectation of renewal",
+          "detail": "Two prior renewals create a reasonable expectation of renewal; non-renewal needs objectively reasonable grounds (Labour Contract Act §19)."
+        }
+      ],
+      "recommended_action": "renew",
+      "recommendation_rationale": "Senior revenue role with renewals on record; renew for another year and track the 5-year conversion date.",
+      "confidence": "high",
+      "signed": true
+    },
+    "HR/Contracts/US/Johnson_Emily_Employment_Agreement.pdf": {
+      "document_kind": "employment_agreement",
+      "is_employment_related": true,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Employment Agreement (at-will)",
+      "summary": "At-will employment of Emily Johnson as Director of People Operations in Palo Alto since March 19, 2024 at $198,000. Contains a 12-month nationwide non-compete, which is void under California law.",
+      "employee_name": "Emily Johnson",
+      "employee_email": "emily.johnson@example.com",
+      "job_title": "Director of People Operations",
+      "department": "People",
+      "employer_entity": "Aster Robotics Inc.",
+      "country": "US",
+      "work_location": "Palo Alto, CA",
+      "governing_law": "California, USA",
+      "contract_type": "at_will",
+      "start_date": "2024-03-19",
+      "end_date": null,
+      "auto_renewal": false,
+      "renewal_terms": null,
+      "notice_period_days": null,
+      "notice_terms": "At-will; no notice required.",
+      "notice_deadline": null,
+      "probation_end_date": null,
+      "compensation": {
+        "amount": 198000,
+        "currency": "USD",
+        "period": "year",
+        "text": "$198,000 base salary"
+      },
+      "non_compete": "12 months post-employment, anywhere in the United States (void in California).",
+      "termination_terms": "At-will.",
+      "amends_document": null,
+      "key_dates": [],
+      "key_clauses": [
+        {
+          "heading": "4. Non-Competition",
+          "original_text": "For a period of twelve (12) months following the termination of employment… shall not… engage in or be employed by any business that competes with the Company anywhere in the United States.",
+          "english_text": "For a period of twelve (12) months following the termination of employment… shall not… engage in or be employed by any business that competes with the Company anywhere in the United States.",
+          "page": 1
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "high",
+          "title": "Void non-compete still in a California contract",
+          "detail": "Cal. Bus. & Prof. Code §16600 voids employee non-competes, and §16600.1 required employers to notify affected employees that such clauses are void (deadline Feb 14, 2024). Keeping or enforcing it exposes the company to a private right of action and attorney's fees."
+        }
+      ],
+      "recommended_action": "amend",
+      "recommendation_rationale": "Amend to remove the non-compete (keep confidentiality and non-solicit of employees narrowly drawn) and send the §16600.1 notice now.",
+      "confidence": "high",
+      "signed": true
+    },
+    "HR/Offer Letters/Priya_Nair_Offer_Letter.docx": {
+      "document_kind": "offer_letter",
+      "is_employment_related": true,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Offer of Employment – Data Analyst",
+      "summary": "Offer letter for Priya Nair, Data Analyst in Bengaluru, joining May 31, 2026 at INR 18 lakh CTC. Six-month probation ends November 30, 2026; it can be extended by up to 3 months only by written notice before that date.",
+      "employee_name": "Priya Nair",
+      "employee_email": "priya.nair@example.com",
+      "job_title": "Data Analyst",
+      "department": "Analytics",
+      "employer_entity": "Aster Robotics India Pvt. Ltd.",
+      "country": "IN",
+      "work_location": "Bengaluru, India",
+      "governing_law": "India",
+      "contract_type": "indefinite",
+      "start_date": "2026-05-31",
+      "end_date": null,
+      "auto_renewal": false,
+      "renewal_terms": null,
+      "notice_period_days": 15,
+      "notice_terms": "15 days during probation; 60 days after confirmation.",
+      "notice_deadline": "2026-11-30",
+      "probation_end_date": "2026-11-30",
+      "compensation": {
+        "amount": 1800000,
+        "currency": "INR",
+        "period": "year",
+        "text": "INR 18,00,000 CTC per year"
+      },
+      "non_compete": null,
+      "termination_terms": "15 days' notice in probation; 60 days after confirmation.",
+      "amends_document": null,
+      "key_dates": [
+        {
+          "date": "2026-11-30",
+          "label": "Probation ends — confirm or extend in writing"
+        }
+      ],
+      "key_clauses": [
+        {
+          "heading": "3. Probation",
+          "original_text": "The Company may, at its discretion, extend the probation period by up to three (3) months by written notice issued before the end of the probation period.",
+          "english_text": "The Company may, at its discretion, extend the probation period by up to three (3) months by written notice issued before the end of the probation period.",
+          "page": 1
+        }
+      ],
+      "risk_flags": [
+        {
+          "severity": "medium",
+          "title": "Probation decision due",
+          "detail": "Probation ends November 30, 2026. Without a written extension before then, she is treated as confirmed with a 60-day notice period."
+        }
+      ],
+      "recommended_action": "confirm_probation",
+      "recommendation_rationale": "No performance concerns on file; issue the written confirmation before the probation end date.",
+      "confidence": "high",
+      "signed": true
+    },
+    "Legal/Real Estate/Office_Lease_Berlin_Mitte.pdf": {
+      "document_kind": "lease",
+      "is_employment_related": false,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Commercial Lease Agreement — Berlin office",
+      "summary": "Berlin office lease ending June 30, 2027; 3-year extension option requires notice 6 months before expiry."
+    },
+    "Legal/Vendor NDAs/Mutual_NDA_Quantico_Sensors.pdf": {
+      "document_kind": "nda",
+      "is_employment_related": false,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Mutual NDA — Quantico Sensors",
+      "summary": "Vendor mutual NDA for a lidar supply evaluation; not an employment document."
+    },
+    "Finance/Invoices/Invoice_INV-20931.pdf": {
+      "document_kind": "invoice",
+      "is_employment_related": false,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Invoice INV-20931 (Northbeam Cloud Services)",
+      "summary": "Cloud services invoice for $12,480; not an employment document."
+    },
+    "Board/Board_Minutes_2026_Q3.pdf": {
+      "document_kind": "board_minutes",
+      "is_employment_related": false,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Board minutes — Q3 2026",
+      "summary": "Board approved an EMEA hiring freeze (critical engineering retention exempt) and asked Legal for a recommendation on the VP Sales renewal before November 25, 2026."
+    },
+    "HR/Policies/Employee_Handbook_2026.pdf": {
+      "document_kind": "policy",
+      "is_employment_related": false,
+      "language": "en",
+      "language_name": "English",
+      "is_scanned": false,
+      "title": "Employee Handbook 2026 (excerpt)",
+      "summary": "Separations need CEO + Head of People approval and Legal review of every letter; renewal requests due 60 days before contract end."
+    }
+  },
+  "contracts": [
+    {
+      "employee_name": "Daniel O'Connor",
+      "primary": "HR/Contracts/US/OConnor_Daniel_Executive_Employment_Agreement.pdf",
+      "supporting": [
+        "Board/Board_Minutes_2026_Q3.pdf"
+      ],
+      "effective_end_date": "2027-02-23",
+      "action_deadline": "2026-11-25",
+      "action_deadline_reason": "Last day to deliver 90-day notice of non-renewal; otherwise renews 12 months.",
+      "current_compensation_text": "$270,000 base + 40% target bonus",
+      "status_note": "Board minutes ask Legal for a recommendation before the notice deadline."
+    },
+    {
+      "employee_name": "Arjun Sharma",
+      "primary": "HR/Contracts/APAC/Consultancy_Agreement_Arjun_Sharma.pdf",
+      "supporting": [],
+      "effective_end_date": "2026-12-15",
+      "action_deadline": "2026-11-15",
+      "action_deadline_reason": "30-day non-renewal window closed; renews for 6 months on the end date. 60-day termination for convenience still available.",
+      "current_compensation_text": "INR 2,50,000 per month + GST",
+      "status_note": "Missed: renews to June 15, 2027. Next non-renewal deadline May 16, 2027."
+    },
+    {
+      "employee_name": "Lukas Becker",
+      "primary": "Scans/scan_0042.pdf",
+      "supporting": [],
+      "effective_end_date": "2026-12-31",
+      "action_deadline": "2026-12-31",
+      "action_deadline_reason": "Fixed term ends; decide (convert or exit) before the last working day.",
+      "current_compensation_text": "€78,000 gross per year",
+      "status_note": "Found as an unnamed scan."
+    },
+    {
+      "employee_name": "Maya Chen",
+      "primary": "HR/Contracts/US/Chen_Maya_Fixed_Term_Employment_Agreement.pdf",
+      "supporting": [
+        "HR/Contracts/US/Chen_Maya_Amendment_No1.pdf"
+      ],
+      "effective_end_date": "2027-01-15",
+      "action_deadline": "2026-12-16",
+      "action_deadline_reason": "Amendment No. 1 moved the end date; 30-day notice of intention applies.",
+      "current_compensation_text": "$185,000 base (after Amendment No. 1)",
+      "status_note": "Original agreement looks expired; the amendment extends it."
+    },
+    {
+      "employee_name": "Sofía Martínez García",
+      "primary": "HR/Contracts/EMEA/Contrato_Martinez_Sofia.pdf",
+      "supporting": [],
+      "effective_end_date": "2027-02-28",
+      "action_deadline": "2027-02-13",
+      "action_deadline_reason": "15 days' notice before expiry (art. 49.1.c ET).",
+      "current_compensation_text": "€52,000 gross in 14 payments",
+      "status_note": null
+    },
+    {
+      "employee_name": "Camille Dubois",
+      "primary": "HR/Contracts/EMEA/CDD_Dubois_Camille.pdf",
+      "supporting": [],
+      "effective_end_date": "2027-03-31",
+      "action_deadline": "2027-03-31",
+      "action_deadline_reason": "Renewal avenant must be signed before the CDD ends.",
+      "current_compensation_text": "€4,200 gross per month",
+      "status_note": "Employee signature missing."
+    },
+    {
+      "employee_name": "Yuki Tanaka (田中由紀)",
+      "primary": "HR/Contracts/APAC/雇用契約書_田中由紀.pdf",
+      "supporting": [],
+      "effective_end_date": "2027-03-31",
+      "action_deadline": "2027-03-01",
+      "action_deadline_reason": "30 days' advance notice required for non-renewal.",
+      "current_compensation_text": "¥850,000 per month",
+      "status_note": null
+    },
+    {
+      "employee_name": "Emily Johnson",
+      "primary": "HR/Contracts/US/Johnson_Emily_Employment_Agreement.pdf",
+      "supporting": [],
+      "effective_end_date": null,
+      "action_deadline": null,
+      "action_deadline_reason": null,
+      "current_compensation_text": "$198,000 base",
+      "status_note": "No deadline; compliance fix needed."
+    },
+    {
+      "employee_name": "Priya Nair",
+      "primary": "HR/Offer Letters/Priya_Nair_Offer_Letter.docx",
+      "supporting": [],
+      "effective_end_date": null,
+      "action_deadline": "2026-11-30",
+      "action_deadline_reason": "Probation ends; extension only by written notice before this date.",
+      "current_compensation_text": "INR 18,00,000 CTC per year",
+      "status_note": null
+    }
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "employee_name": null,
+      "title": "Out of scope: Berlin lease option",
+      "detail": "Not an employment matter, but the Berlin office lease extension option must be exercised by December 30, 2026."
+    },
+    {
+      "severity": "medium",
+      "employee_name": "Lukas Becker",
+      "title": "Misfiled contract",
+      "detail": "Lukas Becker's employment contract was only stored as 'Scans/scan_0042.pdf'; file it under HR/Contracts/EMEA."
+    },
+    {
+      "severity": "low",
+      "employee_name": null,
+      "title": "Process: Legal must review every exit letter",
+      "detail": "The 2026 handbook requires Legal review plus CEO and Head of People approval for every termination or non-renewal."
+    }
+  ]
+}

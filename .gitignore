@@ -1,0 +1,28 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+credentials/
+
+# runtime data (SQLite, drafts, outbox, filings)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# frontend build
+frontend/node_modules/
+frontend/dist/
+
+# editor / OS / local tooling
+.claude/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db

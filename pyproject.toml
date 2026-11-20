@@ -1,0 +1,24 @@
+[project]
+name = "handover"
+version = "0.1.0"
+description = "Handover: an agentic contract desk that gives new in-house counsel the handover they never got."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=1.0",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-dotenv>=1.0",
+    "pypdf>=5.0",
+    "reportlab>=4.2",
+    "pillow>=11.0",
+    "python-docx>=1.1",
+    "google-api-python-client>=2.140",
+    "google-auth>=2.30",
+    "google-auth-oauthlib>=1.2",
+    "google-genai>=3.6.1",
+    "openai>=3.55.1",
+]
+
+[tool.uv]
+package = false
